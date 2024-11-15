@@ -212,7 +212,7 @@ Merge BA, UTC time, and Demand in Data_elec_BA with Carbon Intensity, Low Carbon
 
 method to obtain:
 
-for index, row in first_df.iterrows():
+<pre><code>for index, row in first_df.iterrows():
 
 &nbsp;   first_col_value_1 = row\[0\]
 
@@ -254,7 +254,7 @@ for index, row in first_df.iterrows():
 
 &nbsp;           print(f'完成{first_col_value_1}')
 
-&nbsp;           break
+&nbsp;           break</code></pre>
 
 Code function:
 
