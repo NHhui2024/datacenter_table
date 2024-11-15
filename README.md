@@ -84,7 +84,7 @@ Data Source: Powering Intelligence Analyzing Artificial Intelligence and Data Ce
 
 Regression model code:
 
-import numpy as np
+<code>import numpy as np
 
 import matplotlib.pyplot as plt
 
