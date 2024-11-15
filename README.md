@@ -180,7 +180,7 @@ number = ''.join(filter(lambda x: x.isdigit() or x == '.', line))
 
 row.append(number)
 
-&nbsp;               data.append(row)</code>code></pre>
+data.append(row)</code></pre>
 
 Code function: Extract the numbers and '. 'in lines 2-5 of the corresponding file.
 
