@@ -76,7 +76,7 @@ method to obtain:
 
 Xpath code:
 
-//\*\[@id="\__next"\]/div/div/div\[2\]/main/div/div\[2\]/div\[3\]/div/a\[/\]/div/div\[2\]
+<code>//\*\[@id="\__next"\]/div/div/div\[2\]/main/div/div\[2\]/div\[3\]/div/a\[/\]/div/div\[2\]
 
 4. Data_elec_DC: The electricity consumption of data centers
 
@@ -156,7 +156,7 @@ Data Source: <https://github.com/electricitymaps/electricitymaps-contrib/tree/ma
 
 method to obtain:
 
-for filename in os.listdir(folder_path):
+<pre><code>for filename in os.listdir(folder_path):
 
 &nbsp;   if filename.startswith('US'):  # "US"
 
@@ -180,7 +180,7 @@ number = ''.join(filter(lambda x: x.isdigit() or x == '.', line))
 
 row.append(number)
 
-&nbsp;               data.append(row)
+&nbsp;               data.append(row)</code>code></pre>
 
 Code function: Extract the numbers and '. 'in lines 2-5 of the corresponding file.
 
@@ -192,7 +192,7 @@ method to obtain:
 
 The address of Data Centers are obtained through Xpath in [https://www.datacentermap.com/datacenters/](http://www.datacentermap.com/datacenters/). Xpath code is as follows.
 
-//\*\[@id="\__next"\]/div/div/div\[2\]/main/div/div\[2\]/div\[3\]/div/a\[/\]/div/div\[3\]/text()\[2\]
+<code>//\*\[@id="\__next"\]/div/div/div\[2\]/main/div/div\[2\]/div\[3\]/div/a\[/\]/div/div\[3\]/text()\[2\]
 
 Then through <https://maplocation.sjfkai.com> batch convert Data Centers' location to latitude and longitude. Notice: The website has a limited number of enquiries per day.
 
