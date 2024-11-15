@@ -1,11 +1,4 @@
-Initial documents	Merge documents
-Data_elec_DC		Merge_BA
-Data_elec_BA	Combine_elec_carbon	
-Data_carbon_BA		
-Address_DC	Address_DC(BA)	
-Address_BA		
-Data_DC		
-EIA930_Reference_Tables		
+
 Document list
 1.Introduction
 This project collected the data of electricity demand, carbon emission and new energy ratio of Balance Authority(BA) in the United States, classified the data centers according to the regions of BA, and calculated its electricity consumption and carbon emissions.
