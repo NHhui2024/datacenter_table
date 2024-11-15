@@ -76,7 +76,7 @@ method to obtain:
 
 Xpath code:
 
-<code>//\*\[@id="\__next"\]/div/div/div\[2\]/main/div/div\[2\]/div\[3\]/div/a\[/\]/div/div\[2\]
+<code>//\*\[@id="\__next"\]/div/div/div\[2\]/main/div/div\[2\]/div\[3\]/div/a\[/\]/div/div\[2\]</code>
 
 4. Data_elec_DC: The electricity consumption of data centers
 
@@ -192,7 +192,7 @@ method to obtain:
 
 The address of Data Centers are obtained through Xpath in [https://www.datacentermap.com/datacenters/](http://www.datacentermap.com/datacenters/). Xpath code is as follows.
 
-<code>//\*\[@id="\__next"\]/div/div/div\[2\]/main/div/div\[2\]/div\[3\]/div/a\[/\]/div/div\[3\]/text()\[2\]
+<code>//\*\[@id="\__next"\]/div/div/div\[2\]/main/div/div\[2\]/div\[3\]/div/a\[/\]/div/div\[3\]/text()\[2\]</code>
 
 Then through <https://maplocation.sjfkai.com> batch convert Data Centers' location to latitude and longitude. Notice: The website has a limited number of enquiries per day.
 
