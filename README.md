@@ -8,26 +8,26 @@ Document list
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For the determination of BA region, the source code of electricity map was downloaded from GitHub, the bonding box of BA(Address_BA) was extracted by python script and compared with the longitude and dimension of data centers(Address_DC) to obtain the table of data center division by BA region(Address_DC(BA)).<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally, organize the name, location, power consumption, carbon emissions, and BA of the data center into the file ‘merge.csv’.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Details of the documents can be found below.<br>
-2.Initial documentation description
-1)Data_elec_BA: Balance Authority(BA) electricity consumption data
-Time: 2015-2023 hourly
-Available content: BA,UTC time,Demand
-Data Source: https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/US48/US48
-2)Data_carbon_BA: BA's carbon emissions data
-Time: 2021-2023 hourly
-Available content: Zone ID, UTC time, Carbon Intensity, Low Carbon Percentage, Renewable Percentage
-Data Source: https://www.electricitymaps.com/data-portal/united-states-of-america
-3)Data_DC: DC's name, number, state
-Data Source: https://www.datacentermap.com/datacenters/
-method to obtain: 
-Xpath code:
-//*[@id="__next"]/div/div/div[2]/main/div/div[2]/div[3]/div/a[/]/div/div[2]
-4)Data_elec_DC: The electricity consumption of data centers
-Data Source: Powering Intelligence Analyzing Artificial Intelligence and Data Center Energy Consumption
-Regression model code:
-import numpy as np
-import matplotlib.pyplot as plt
-from sklearn.linear_model import LinearRegression
+2.Initial documentation description<br>
+1)Data_elec_BA: Balance Authority(BA) electricity consumption data<br>
+Time: 2015-2023 hourly<br>
+Available content: BA,UTC time,Demand<br>
+Data Source: https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/US48/US48<br>
+2)Data_carbon_BA: BA's carbon emissions data<br>
+Time: 2021-2023 hourly<br>
+Available content: Zone ID, UTC time, Carbon Intensity, Low Carbon Percentage, Renewable Percentage<br>
+Data Source: https://www.electricitymaps.com/data-portal/united-states-of-america<br>
+3)Data_DC: DC's name, number, state<br>
+Data Source: https://www.datacentermap.com/datacenters/<br>
+method to obtain: <br>
+Xpath code:<br>
+//*[@id="__next"]/div/div/div[2]/main/div/div[2]/div[3]/div/a[/]/div/div[2]<br>
+4)Data_elec_DC: The electricity consumption of data centers<br>
+Data Source: Powering Intelligence Analyzing Artificial Intelligence and Data Center Energy Consumption<br>
+Regression model code:<br>
+import numpy as np<br>
+import matplotlib.pyplot as plt<br>
+from sklearn.linear_model import LinearRegression<br>
 
 # Data provided by the user
 data_new = np.array([
