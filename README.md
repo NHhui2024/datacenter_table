@@ -1,4 +1,4 @@
-<center><h2>Document list</h2></center>
+<h2>Document list</h2>
 <table border="1" cellpadding="10" cellspacing="0">
     <tr>
         <td>Initial documents</td>
@@ -36,7 +36,7 @@
     </tr>
 </table>
 
-1.Introduction
+<h3>1.Introduction</h3>
 
 This project collected the data of electricity demand, carbon emission and new energy ratio of Balance Authority(BA) in the United States, classified the data centers according to the regions of BA, and calculated its electricity consumption and carbon emissions.
 
@@ -50,7 +50,7 @@ Finally, organize the name, location, power consumption, carbon emissions, and B
 
 Details of the documents can be found below.
 
-2.Initial documentation description
+<h3>2.Initial documentation description</h3>
 
 1. Data_elec_BA: Balance Authority(BA) electricity consumption data
 
@@ -200,7 +200,7 @@ Then through <https://maplocation.sjfkai.com> batch convert Data Centers' locati
 
 For the few that cannot be converted directly, you can mark them on Google Maps and obtain latitude and longitude.
 
-3.Merge document descriptions
+<h3>3.Merge document descriptions</h3>
 
 1. Combine_elec_carbon: 2023 BA's electricity consumption and carbon emission related data
 
