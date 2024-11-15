@@ -1,0 +1,8 @@
+Data_center,Data_center_address,Longitude_of_data_center,Latitude_of_data_center,Is_it_accurate,power_usage_2023_kwh,power_usage_per_hour_2023_kwh
+"DRFortress - Honolulu, Hawaii",3375 Koapaka Street,-157.9175319,21.3360774,ROOFTOP,1095,0.125
+MTP Data Center,200 Kahelu Ave,-158.0192586,21.4809224,ROOFTOP,1095,0.125
+Hawaiian Telcom - Endeavor Data Center,2339 Kamehameha Highway,-157.8882132,21.3319333,ROOFTOP,1095,0.125
+University of Hawaii ITS Data Center,2520 Correa Rd,-157.8164309,21.2988159,ROOFTOP,1095,0.125
+Lumen Honolulu,550 Paiea St,-157.9164071,21.3355424,ROOFTOP,1095,0.125
+Puahale,1931 N King St,-157.878286,21.3319047,ROOFTOP,1095,0.125
+AlohaNAP,91-340 Farrington Hwy,-158.0902073,21.336815,ROOFTOP,1095,0.125

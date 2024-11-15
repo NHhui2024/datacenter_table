@@ -1,0 +1,3 @@
+Data_center,Data_center_address,Longitude_of_data_center,Latitude_of_data_center,Is_it_accurate,power_usage_2023_kwh,power_usage_per_hour_2023_kwh
+Peacecom Chattanooga,1100 East 11th Street,121.0105159,24.8314925,ROOFTOP,28850.86957,3.293478261
+Centersquare Nashville,1398 Gateway Dr.,103.741944,1.3353855,GEOMETRIC_CENTER,28850.86957,3.293478261

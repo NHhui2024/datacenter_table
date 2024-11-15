@@ -1,0 +1,7 @@
+Data_center,Data_center_address,Longitude_of_data_center,Latitude_of_data_center,Is_it_accurate,power_usage_2023_kwh,power_usage_per_hour_2023_kwh
+Prime Chicago Data Center Campus ,1701 Midway Ct,-84.3483459,30.1848123,GEOMETRIC_CENTER,49338.91391,5.632296108
+EdgeConneX Tallahassee-EDCTAL01,"1531 Commonwealth Business Dr, Units 404-408",-84.3536542,30.4717835,ROOFTOP,11252.68293,1.284552846
+Lumen Tallahassee,619 Mabry Street,-84.3281362,30.4367397,ROOFTOP,11252.68293,1.284552846
+Lumen Tallahassee 2,1416 S Adams Street,-84.28225124,30.42980021,GoogleMap,11252.68293,1.284552846
+Pavlov Media FL,215  W Carolina St,-84.2833889,30.4466371,ROOFTOP,11252.68293,1.284552846
+SkyLink - Naples,801 Orchid Drive,103.8290547,1.3553265,GEOMETRIC_CENTER,11252.68293,1.284552846

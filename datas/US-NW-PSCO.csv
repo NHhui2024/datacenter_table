@@ -1,0 +1,4 @@
+Data_center,Data_center_address,Longitude_of_data_center,Latitude_of_data_center,Is_it_accurate,power_usage_2023_kwh,power_usage_per_hour_2023_kwh
+Equinix DE2,"335 Inverness Drive South, Inverness Business Park",-4.224721,57.477773,APPROXIMATE,27448,3.1333333
+Vastnet - Denver,800E 73rd Av,-104.9769449,-104.9769449,GoogleMap,27448,3.1333333
+CorKat Data,P.O. Box 7451,-105.0985327,", -105.09853273668338",GoogleMap,27448,3.1333333

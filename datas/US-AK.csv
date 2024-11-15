@@ -1,0 +1,9 @@
+Data_center,Data_center_address,Longitude_of_data_center,Latitude_of_data_center,Is_it_accurate,power_usage_2023_kwh,power_usage_per_hour_2023_kwh
+Amazon AWS PDX - 1650 Beach,1650 Beach Access Rd,-157.0610252,58.7370403,RANGE_INTERPOLATED,58840.94495,6.717002849
+Amazon AWS PDX - 3250 Beach,3250 Beach Access Rd,-157.0610252,58.7370403,RANGE_INTERPOLATED,58840.94495,6.717002849
+GCI Anchorage,6831 Arctic Blvd,-149.8899852,61.1584545,ROOFTOP,93718.09,10.6984121
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
