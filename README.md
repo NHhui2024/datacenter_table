@@ -1,14 +1,41 @@
-| Initial documents | Merge documents |     |
-| --- | --- |     | --- |
-| Data_elec_DC |     | Merge_BA |
-| Data_elec_BA | Combine_elec_carbon |
-| Data_carbon_BA |
-| Address_DC | Address_DC(BA) |
-| Address_BA |     |
-| Data_DC |     |     |
-| EIA930_Reference_Tables |     |     |
-
 Document list
+<table border="1" cellpadding="10" cellspacing="0">
+    <tr>
+        <th>Initial documents</th>
+        <th>Merge documents</th>
+        <th></th>
+    </tr>
+    <tr>
+        <td>Data_elec_DC</td>
+        <td rowspan="2">Combine_elec_carbon</td>
+        <td rowspan="4">Merge_BA</td>
+    </tr>
+    <tr>
+        <td>Data_elec_BA</td>
+    </tr>
+    <tr>
+        <td>Data_carbon_BA</td>
+        <td rowspan="2">Address_DC(BA)</td>
+    </tr>
+    <tr>
+        <td>Address_DC</td>
+    </tr>
+    <tr>
+        <td>Address_BA</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Data_DC</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>EIA930_Reference_Tables</td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
 
 1.Introduction
 
