@@ -3,22 +3,22 @@ Document list
     <tr>
         <td>Initial documents</td>
         <td colspan="2">Merge documents</td>
-        <td></td>
     </tr>
     <tr>
         <td>Data_elec_DC</td>
-        <td >Combine_elec_carbon</td>
+        <td></td>
         <td rowspan="4">Merge_BA</td>
     </tr>
     <tr>
         <td>Data_elec_BA</td>
+        <td rowspan="2">Combine_elec_carbon</td>
     </tr>
     <tr>
         <td>Data_carbon_BA</td>
-        <td rowspan="2">Address_DC(BA)</td>
     </tr>
     <tr>
         <td>Address_DC</td>
+        <td rowspan="2">Address_DC(BA)</td>
     </tr>
     <tr>
         <td>Address_BA</td>
