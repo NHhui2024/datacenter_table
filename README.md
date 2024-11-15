@@ -23,7 +23,6 @@ Document list
     <tr>
         <td>Address_BA</td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>Data_DC</td>
