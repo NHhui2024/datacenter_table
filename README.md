@@ -1,13 +1,13 @@
 Document list
 <table border="1" cellpadding="10" cellspacing="0">
     <tr>
-        <th>Initial documents</th>
-        <th>Merge documents</th>
-        <th></th>
+        <td>Initial documents</td>
+        <td colspan="2">Merge documents</td>
+        <td></td>
     </tr>
     <tr>
         <td>Data_elec_DC</td>
-        <td rowspan="2">Combine_elec_carbon</td>
+        <td >Combine_elec_carbon</td>
         <td rowspan="4">Merge_BA</td>
     </tr>
     <tr>
