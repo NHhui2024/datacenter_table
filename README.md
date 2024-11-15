@@ -84,7 +84,7 @@ Data Source: Powering Intelligence Analyzing Artificial Intelligence and Data Ce
 
 Regression model code:
 
-<code>import numpy as np
+<pre><code>import numpy as np
 
 import matplotlib.pyplot as plt
 
@@ -148,7 +148,7 @@ plt.legend()
 
 plt.grid(True)
 
-plt.show()</code>
+plt.show()</code></pre>
 
 5. Address_BA: BA's bounding-box
 
