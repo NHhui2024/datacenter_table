@@ -1,4 +1,4 @@
-Document list
+<center><h2>Document list</h2></center>
 <table border="1" cellpadding="10" cellspacing="0">
     <tr>
         <td>Initial documents</td>
